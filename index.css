@@ -24,10 +24,14 @@ body {
     background:#284551;
     border-radius:50px;
     box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.04);
+    /* padding-left:60px;
+    padding-right:60px; */
+    padding:60px;
+    gap:50px;
 }
 
 .main-image {
-    max-width:400px;
+    width:400px;
 }
 
 @media (max-width: 1000px) {
@@ -37,14 +41,13 @@ body {
 
     .container {
         height:auto;
+        width:auto;
     }
 }
 
-.text-contain {
-    margin-left: 60px;
-    margin-right: 50px;
-    margin-top:30px;
-}
+/* .text-contain {
+    margin-right: 50px; 
+} */
 
 .text-contain h1 {
     font-size:60pt;
@@ -66,7 +69,8 @@ body {
     }
 
     .main-image {
-        max-width: 100%;
+        width: 100%;
+        height:auto;
     }
 }
 
@@ -82,7 +86,6 @@ body {
 
 .content-contain img {
     border-radius:30px;
-    margin: 50px;
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.04);
 }
 
