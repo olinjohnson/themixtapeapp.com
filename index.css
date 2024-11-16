@@ -55,6 +55,21 @@ body {
     font-size: 16pt;
 }
 
+@media (max-width: 550px) {
+    .text-contain h1 {
+        font-size: 40pt;
+        /* border:2px solid red; */
+    }
+
+    .text-contain p {
+        font-size: 14pt;
+    }
+
+    .main-image {
+        max-width: 100%;
+    }
+}
+
 .text-contain button {
     padding:10px;
     padding-left:20px;
@@ -71,7 +86,7 @@ body {
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.04);
 }
 
-.content-contain  a {
+.content-contain a {
     text-decoration: none;
     color:black;
     font-size: 34pt;
