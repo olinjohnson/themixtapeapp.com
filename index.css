@@ -72,6 +72,9 @@ body {
         width: 100%;
         height:auto;
     }
+    .content-contain {
+        padding:40px;
+    }
 }
 
 .text-contain button {
