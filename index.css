@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin:15px;
 }
 
 .content-contain {
@@ -23,6 +24,20 @@ body {
     background:#284551;
     border-radius:50px;
     box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.04);
+}
+
+.main-image {
+    max-width:400px;
+}
+
+@media (max-width: 1000px) {
+    .content-contain {
+        flex-direction: column;
+    }
+
+    .container {
+        height:auto;
+    }
 }
 
 .text-contain {
