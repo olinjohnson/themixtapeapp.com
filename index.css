@@ -29,29 +29,15 @@ body {
     gap:50px;
 }
 
-.main-image {
-    display:block;
-    width:400px;
-}
-
 @media (max-width: 1000px) {
     .content-contain {
         flex-direction: column;
+        align-items:center;
     }
-
-    /* .container {
-        height:auto;
-        width:auto;
-    } */
 }
-
-/* .text-contain {
-    margin-right: 50px; 
-} */
 
 .text-contain h1 {
     font-size:60pt;
-    /* border:2px solid red; */
 }
 
 .text-contain p {
@@ -62,7 +48,6 @@ body {
     
     .text-contain h1 {
         font-size: 40pt;
-        /* border:2px solid red; */
     }
 
     .text-contain p {
@@ -70,8 +55,7 @@ body {
     }
 
     .main-image {
-        height: auto;
-        width: 100%;
+        width:100%;
     }
     .content-contain {
         padding:40px;
