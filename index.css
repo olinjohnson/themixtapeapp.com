@@ -13,7 +13,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:15px;
 }
 
 .content-contain {
@@ -31,6 +30,7 @@ body {
 }
 
 .main-image {
+    display:block;
     width:400px;
 }
 
@@ -39,10 +39,10 @@ body {
         flex-direction: column;
     }
 
-    .container {
+    /* .container {
         height:auto;
         width:auto;
-    }
+    } */
 }
 
 /* .text-contain {
@@ -59,6 +59,7 @@ body {
 }
 
 @media (max-width: 550px) {
+    
     .text-contain h1 {
         font-size: 40pt;
         /* border:2px solid red; */
@@ -69,11 +70,12 @@ body {
     }
 
     .main-image {
+        height: auto;
         width: 100%;
-        height:auto;
     }
     .content-contain {
         padding:40px;
+        margin:15px;
     }
 }
 
