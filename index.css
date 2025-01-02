@@ -27,6 +27,7 @@ body {
     padding-right:60px; */
     padding:60px;
     gap:50px;
+    align-items:center;
 }
 
 @media (max-width: 1000px) {
@@ -151,4 +152,9 @@ body {
 
 .footer-links a:hover {
     opacity:0.5;
+}
+
+.notice {
+    max-width:400px;
+    color:rgb(255, 186, 186);
 }
