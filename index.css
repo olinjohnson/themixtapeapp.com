@@ -79,7 +79,7 @@ body {
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.04);
 }
 
-.content-contain a {
+#github-button {
     text-decoration: none;
     color:black;
     font-size: 34pt;
@@ -155,6 +155,14 @@ body {
 }
 
 .notice {
-    max-width:400px;
+    max-width: 400px;
+}
+
+.notice strong {
     color:rgb(255, 186, 186);
+    font-size:12pt;
+}
+
+.notice a {
+    color: rgb(255, 186, 186);
 }
