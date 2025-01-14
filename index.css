@@ -8,12 +8,14 @@ body {
 }
 
 .container {
+    margin:10px;
     height:100vh;
     min-height:fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width:fit-content;
 }
 
 .content-contain {
@@ -49,6 +51,10 @@ body {
 
 @media (max-width: 550px) {
     
+    .container {
+        border:2px solid red;
+    }
+    
     .text-contain h1 {
         font-size: 40pt;
     }
@@ -63,6 +69,9 @@ body {
     .content-contain {
         padding:40px;
         margin:15px;
+    }
+    .badges {
+        width: 100%;
     }
 }
 
